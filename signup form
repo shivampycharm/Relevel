@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td><label><h3>Enter your full name:</h3></label</td>
+                    <td><input type = "text"/></td>                             
+                </tr>
+                <tr>
+                    <td><label><h3>Enter your E-mail Id:</h3></label></td>
+                    <td><input type = "email"/></td>
+                </tr>
+                <tr>
+                    <td><label><h3>User Name:</h3></label></td>
+                    <td><input type = "text"/></td>
+                </tr>
+                <tr>
+                    <td><h3>Mobile:</h3></td>
+                    <td><input type = "number"/></td>
+                </tr>
+                <tr>
+                    <td><label><h3>Gender:</h3></label></td>
+                    <td><input type="radio" name="gender" value="Male">Male</input>
+                        <input type="radio" name="gender" value="Female">Female</input>
+                        <input type="radio" name="gender" value="Transgender">LGBTQ</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label><h3>Date of Birth</h3></label></td>
+                    <td><input type = "date"/></td>
+                </tr>
+                
+                <tr>
+                    <td><label><h3>Country</h3></label></td>
+                    <td><input type = "text"/></td>
+                </tr>
+                <tr>
+                    <td><label><h3>Create Password:</h3></label></td>
+                    <td><input type = "password" name="password"/></td>
+                </tr>
+                <tr>
+                    <td><label><h3>Confirm Password:</h3></label></td>.po
+                    <td><input type = "password" name="password"/></td>
+                </tr>
+                <tr>
+                    <td><input type = "submit" value = "Sign up" /></td>
+                    <td><input type = "submit" value = "Reset" /></td>
+                </tr>
+            </table>
+            <p><i>If you have already signed up. <a href="login.html">Please login.</a></i></p>
+        </form> 
+    </body>
+</html>
