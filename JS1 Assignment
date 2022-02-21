@@ -1,0 +1,37 @@
+const readline = require('readline-sync')
+console.log("What you want to do......");
+console.log("1. For addition            :   Press 1" );
+console.log("2. For subtraction         :   Press 2" );
+console.log("3. For multiplication      :   Press 3" );
+console.log("4. For division            :   Press 4" );
+console.log("5. For power of a number   :   Press 5" );
+
+operation = Number(readline.question("Choose your operation from the above options : "))
+
+var a = Number(readline.question("Enter your First number a : "))
+var b = Number(readline.question("Enter your second number b : "))
+
+if (operation==1)
+    {
+        console.log("a + b = ",a+b)
+    }
+else if (operation==2)
+    {
+        console.log("a - b = ",a-b)
+    }
+else if (operation==3)
+    {
+        console.log("a X b = ",a*b)
+    }
+else if (operation==4)
+    {
+        console.log("a/b = ",a/b)
+    }
+else if (operation==5)
+    {
+        console.log("a^b = ",a**b)
+    }
+else
+    {
+        console.log("Please choose the correct option")
+    }
