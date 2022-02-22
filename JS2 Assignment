@@ -1,0 +1,60 @@
+const readline = require('readline-sync');
+
+// Program to iterate from 1 to 100 and print different values. 
+
+for (let i = 1; i<=100; i++)
+{
+    if (i%3==0)
+    {
+        console.log("Relevel");
+    }
+    else if (i%5==0)
+    {
+        console.log("Buzz");
+    }
+    else if (i%15==0)
+    {
+        console.log("MIndBuzz");
+    }
+    else
+    {
+        console.log(i);
+    }
+}
+
+//=======================================================================================
+
+// Program to check if a number is odd or even
+
+var num = Number(readline.question("Enter a number which you want to check odd or even : "));
+
+if (num%2==0)
+{
+    console.log(num, " is Even");
+}
+else{
+    console.log(num," is Odd");
+}
+
+//=========================================================================================
+
+// Program to check if a number is a perfect squre
+
+var num = Number(readline.question("Enter a number which you want to check it is a Perfect squra or not : "));
+var p = 0
+for (let i = 1; i<=(num/i); i++)
+{
+    if (i*i==num)
+    {
+        ps = 1;
+    }    
+}
+
+if (ps==1)
+{
+    console.log(num," is a perfect square.");
+}
+else
+{
+    console.log(num," is not a perfect square.");
+}
