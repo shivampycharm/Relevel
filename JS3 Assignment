@@ -1,0 +1,53 @@
+//Write a function astroguru that:
+//A: Takes four arguments: number of children, spouses name, location and job
+//B: Output the following string: “You will be a ‘job’ in ‘location’ and married to ‘partner’ with ‘numkids’.”
+
+var job;
+var location;
+var spouse;
+var children;
+
+function astroguru(a, b, c, d)
+{
+    let a = readline.question("Enter your job profile : ");
+    let b = readline.question("Enter your job location : ");
+    let c = readline.question("Enter your spouse's name : ");
+    let d = readline.question("How many children have you? Please Enter : ");
+
+    console.log("You will be a ", a, "in ", b, "and married to ", c, "with ", d, "children");
+}
+
+astroguru(job, location, spouse, children);
+
+
+
+//===========================================================================================================================================================================
+
+
+
+//Write a function that compares two numbers and returns the larger of the two. Bonus: Output appropriate message if numbers cant be compared or are equal
+
+
+var n1;
+var n2;
+
+function compare(a, b)
+{
+    a = Number(readline.question("Enter your first number : "));
+    b = Number(readline.question("Enter your second number : "));
+
+    if(a>b)
+    {
+        return a;
+    }
+    else if(a<b)
+    {
+        return b;
+    }
+    else
+    {
+        console.log("Both numbers are equal.")
+    }
+}
+
+console.log("Largest number is ",compare(n1,n2));
